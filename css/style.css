@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.menuBar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: rebeccapurple;
+}
+
+none {
+    padding: 10px 54px;
+}
+
+
+nav.menuBar {}
+
+nav.menuBar ul li {
+    padding: 15px 35px;
+    padding]: ;
+    padding]: 1;
+    padding]: 15;
+    padding]: 1;
+}
+
+nav.menuBar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: block;
+}
+nav.menuBar ul li:hover{
+    background: red;
+}
