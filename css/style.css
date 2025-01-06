@@ -16,14 +16,8 @@ none {
 }
 
 
-nav.menuBar {}
-
 nav.menuBar ul li {
     padding: 15px 35px;
-    padding]: ;
-    padding]: 1;
-    padding]: 15;
-    padding]: 1;
 }
 
 nav.menuBar ul li a {
@@ -36,4 +30,94 @@ nav.menuBar ul li a {
 }
 nav.menuBar ul li:hover{
     background: red;
+}
+
+.heroBanner{
+    background-image: linear-gradient(
+        0deg,
+        rgb(16, 16, 16) -19.5%,
+        rgba(16,16,26,0)100%
+
+    ), url("../assets/hero-bg.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heroTitle p {color: #fff;text-align: center;font-size: 20px;line-height: 33.5px;}
+
+.container1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    margin: 0 auto;
+    flex-direction: row;
+    padding: 30px 30px;
+}
+
+.heroTitle h2 {
+    color: #fff;
+    font-size: 26px;
+    /* width: 1000px; */
+    font-size: 37px;
+    text-align: center;
+    line-height: 37.5px;
+    margin-top: 10px;
+}
+
+.heroTitle {
+    width: 685px;
+    text-align: center;
+}
+
+.container1 h4 {
+    color: #fff;
+    margin-top: 30px;
+    line-height: 23.5px;
+}
+
+.heroButton {
+    margin-top: 30px;
+}
+
+.heroButton button {
+    background: rebeccapurple;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 36px;
+    width: 204px;
+    height: 59px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background 0.9s, color 0.5s;
+}
+
+.heroButton button:hover {
+    background: red;
+    color: #fff;
+}
+
+.heroButton button::after {
+    content: '';
+    position: absolute;
+    width: 200%; /* Larger width for an animated effect */
+    height: 200%;
+    background: rgba(255, 0, 0, 0.3); /* Semi-transparent red */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* Start small */
+    border-radius: 50%; /* Circular effect */
+    transition: transform 0.5s ease-in-out;
+}
+
+.heroButton button:hover::after {
+    transform: translate(-50%, -50%) scale(1); /* Expand on hover */
 }
