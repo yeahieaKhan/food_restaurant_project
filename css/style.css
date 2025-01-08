@@ -14,7 +14,10 @@ nav.menuBar ul {
 none {
     padding: 10px 54px;
 }
-
+img{
+    max-height: 100%;
+    width: 100%;
+}
 
 nav.menuBar ul li {
     padding: 15px 35px;
@@ -121,3 +124,139 @@ nav.menuBar ul li:hover{
 .heroButton button:hover::after {
     transform: translate(-50%, -50%) scale(1); /* Expand on hover */
 }
+
+
+
+section.brandSection {
+    padding: 100px 0px;
+}
+
+.brandContent {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.brandContent p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.brandContent h2 {
+    width: 325px;
+    margin: auto;
+    font-size: 29px;
+}
+
+
+.brandItems {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.brandDec {
+    text-align: center;
+    margin-top: 19px;
+}
+
+.brandDec p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.brandDec h2 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.barandButton button{
+    background: rebeccapurple;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 36px;
+    width: 204px;
+    height: 59px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background 0.9s, color 0.5s;
+}
+
+
+.barandButton {
+    text-align: center;
+    margin-top: 32px;
+}
+
+
+
+
+
+
+.aboutSection{
+    height: 65vh;
+    padding: 100px 0px;
+}
+
+
+.aboutImg {
+    height: 90vh;
+    width: 830px;
+}
+
+
+
+
+
+.heroAbout {
+    display: flex;
+}
+
+.aboutContent {
+    /* margin: 118px 197px 15px 126px; */
+    width: 736px;
+    padding: 1;
+}
+
+.aboutTitle h2 {
+    /* font-size: 50px; */
+}
+
+.aboutTitle h2 {
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 13px;
+    margin-top: 115px;
+    margin-left: 68px;
+    margin-right: 143px;
+}
+
+.aboutTitle p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.aboutFollow {
+    border-bottom: 1px solid #85858585;
+    border-top: 1px solid #85858585;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutFollow button {
+    border: none;
+}
+
+
