@@ -156,6 +156,7 @@ section.brandSection {
     /* align-items: center; */
     flex-direction: row;
     margin-top: 70px;
+    gap: 20px;
 }
 
 .brandDec {
@@ -260,3 +261,11 @@ section.brandSection {
 }
 
 
+.aboutSocial {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aboutSocial i {
+    padding: 0px 30px;
+}
